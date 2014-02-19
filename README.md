@@ -12,6 +12,6 @@ Parameters
   fallback-src: string - optional
 
 #Usage
-  angular.module('myApp', ['fnloadImage'])
+    angular.module('myApp', ['fnloadImage'])
   
-  <load-image img-src="http://placekitten.com/200/300" fallback-src="http://placekitten.com/100/300"></load-image>
+    <load-image img-src="http://placekitten.com/200/300" fallback-src="http://placekitten.com/100/300"></load-image>
