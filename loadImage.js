@@ -3,7 +3,7 @@ angular.module('fnloadImage').directive('loadImage', function($filter){
         restrict: 'EA',
         template: '<div class="load-image-wrap">'+
             '<img src="{{imgSrc}}" ng-hide="loading" />'+
-            '<p show="loading">Loading...</p></div>',
+            '<p ng-show="loading">Loading...</p></div>',
         scope: {
             imgSrc: '@', //path of the image path to load
             fallbackSrc: '@' //path of the fallback image loacation
